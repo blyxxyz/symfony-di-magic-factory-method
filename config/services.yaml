@@ -34,6 +34,7 @@ services:
     example.broken:
         class: DateTime
         factory: App\SomeServiceProvider:magicFactoryMethod
+        arguments: []
         public: true
 
     example.fixed:
